@@ -1,0 +1,8 @@
+Match User ssh
+    PasswordAuthentication no
+    AllowTcpForwarding  yes
+    PermitTTY no
+    X11Forwarding no
+    PermitTunnel no
+    GatewayPorts no
+    ForceCommand /sbin/nologin
